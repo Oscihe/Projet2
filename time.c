@@ -20,7 +20,7 @@ int time( struct Goutte gouttes, struct Grille grilles, int number_case, double 
       double distance_tot_y = point.latitude[i] + 100 + distance_y;
     }
     else{
-      double distance_x = steadyflow_speed*pente_normalisée_x;
+      double distance_asx = steadyflow_speed*pente_normalisée_x;
       double distance_y = steadyflow_speed*pente_normalisée_y;
     }
   }
